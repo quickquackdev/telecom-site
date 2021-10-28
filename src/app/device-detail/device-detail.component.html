@@ -1,0 +1,16 @@
+<!-- only display selected device if selectedDevice exists -->
+<div *ngIf="device">
+
+    <h2>{{device.brand}} {{device.model}} Details</h2>
+    
+    <div><span>User ID: </span>{{device.userId}}</div>
+    
+    <!-- Input Box to edit brand -->
+    <!--
+    <div>
+        <label for="device-brand">Device brand: </label>
+        <input id="device-brand" [(ngModel)]="device.brand" placeholder="brand">
+    </div>
+    -->
+  
+</div>
